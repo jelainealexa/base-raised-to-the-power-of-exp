@@ -17,3 +17,4 @@ exponent_number = 3
 result = exponent(base_number, exponent_number)
 
 # Print result
+print(f"{base_number} raised to the power of {exponent_number} is {result}")
