@@ -2,14 +2,18 @@
 
 # Write the function
 def exponent(base, exp):
-    # Multiply base by itself nth times
+    result = 1
+    # Multiply base by itself n times
     for i in range(exp):
         result *= base
 
     return result
 
 # Given
+base_number = 15
+exponent_number = 3
 
 # Result value
+result = exponent(base_number, exponent_number)
 
 # Print result
