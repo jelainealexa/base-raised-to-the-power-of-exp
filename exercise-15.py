@@ -2,6 +2,11 @@
 
 # Write the function
 def exponent(base, exp):
+    # Multiply base by itself nth times
+    for i in range(exp):
+        result *= base
+
+    return result
 
 # Given
 
